@@ -511,16 +511,17 @@ nav button {
     .bottom span{
         padding: 10px;
     }
+    .textbox p{
+        margin-top: 0;
     }
-
-
-/* @media only screen and (max-width:700px) {
-    .grid-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 100%;
-        }
-    } */ 
+    .textbox svg {
+        position: absolute;
+        bottom: 0;
+        z-index: 0;
+        right: 0;
+        height: 45px;
+    }
+    }
 
 # Mobile
 only screen and (min-width: 480px)
