@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", serif;
+}
+
+body {
+    background-color: black;
+    position: relative;
+}
+
+.main {
+    background-image: url(assests/bg_image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(100vh, 100vw);
+    height: 98vh;
+    position: relative;
+}
+
+.main .box {
+    background-color: black;
+    opacity: 0.69;
+    height: 98vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 80vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 95px;
+}
+
+nav img {
+    width: 120px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 117px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    position: relative;
+    padding: 0 30px;
+}
+
+.hero>:first-child {
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 70px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.hero>:last-child {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(45, 42, 42);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    border: 2px solid rgba(232, 227, 227, 0.5);
+
+}
+
+.btn-red {
+
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    padding: 3px 24px;
+    font-size: 26px;
+    border: 2px solid rgba(232, 227, 227, 0.5);
+    margin-top: 15px;
+}
+
+.main input {
+    border-radius: 4px;
+    padding: 18px 150px 7px 7px;
+    font-size: 13px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 2px solid rgba(232, 227, 227, 0.5);
+    color: white;
+    margin-top: 15px;
+}
+
+#con {
+    line-height: 2rem;
+    padding: 5px 10px 5px 10px;
+    /* margin-left: 1rem; */
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+}
+
+#shows {
+    line-height: 2rem;
+    padding: 5px 10px 5px 10px;
+    margin-left: 1rem;
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+}
+
+.trend {
+    color: white;
+    margin-left: 9rem;
+    padding: 5px 10px 5px 10px;
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.slider {
+    padding: 36px 105px 5px 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.carousel-cell.is-selected {
+    background: #ED2;
+}
+
+.items {
+    margin-left: 25px;
+}
+
+.items img {
+    border-radius: 10px;
+}
+
+.tt {
+    color: white;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding: 5px 10px 5px 10px;
+    margin-top: 1rem;
+}
+
+.textbox {
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding-right: 49px;
+
+}
+
+.rectangle {
+    margin-top: 1rem;
+    background-color: #142143;
+    height: 270px;
+    width: 280px;
+    border-radius: 10px;
+    /* margin-left:2rem; */
+    margin-right: 1rem;
+    position: relative;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 18px 15px 0px 15px;
+}
+
+.textbox svg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.faq h2 {
+    margin-top: 5rem;
+    padding: 24px;
+    margin-left: 6%;
+    margin-right: 9%;
+    font-size: 42px;
+}
+
+.faq {
+    color: white;
+    background-color: black;
+    padding: 34px;
+}
+
+.faqbox {
+    display: flex;
+    background-color: #2C2C2C;
+    padding: 24px;
+    max-width: 100;
+    margin-top: 10px;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 9%;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox:hover {
+    background-color: #414141;
+}
+
+.bottom {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 3%;
+}
+
+.bottom input {
+    border-radius: 4px;
+    padding: 23px 500px 7px 7px;
+    font-size: 13px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 2px solid rgba(232, 227, 227, 0.5);
+    color: white;
+    margin-top: 15px;
+
+}
+
+.bottom-btn {
+
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    padding: 9px 20px 10px 7px;
+    font-size: 26px;
+    border: 2px solid rgba(232, 227, 227, 0.5);
+    margin-top: 15px;
+}
+
+.foot {
+    color: rgb(179 179 179);
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+    border-radius: 0.125rem;
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 79vw;
+    margin: auto;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.footer a {
+    color: rgb(179 179 179);
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+    border-radius: 0.125rem;
+    font-size: 14px;
+}
+
+.hh {
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.end {
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn-foot {
+    padding: 3px 8px;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
