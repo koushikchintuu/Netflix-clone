@@ -29,6 +29,8 @@ body {
     top: 0;
 }
 
+
+
 nav {
     max-width: 80vw;
     display: flex;
@@ -186,7 +188,6 @@ nav button {
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     padding-right: 49px;
-
 }
 
 .rectangle {
@@ -269,6 +270,7 @@ nav button {
 
 }
 
+
 .bottom-btn {
 
     background-color: red;
@@ -335,3 +337,199 @@ nav button {
     cursor: pointer;
     margin-bottom: 2rem;
 }
+
+@media only screen and (width<1200px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .rectangle {
+        margin-top: 1rem;
+        background-color: #142143;
+        height: 16.5rem;
+        width: 17.5rem; 
+        border-radius: 0.625rem;
+        /* margin-left:2rem; */
+        margin-right: 1rem;
+        position: relative;
+    }
+}
+
+@media only screen and (width<992px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .rectangle {
+        margin-top: 1rem;
+        background-color: #142143;
+        /* height: 70px;
+        width: 80px; */
+        border-radius: 0.625rem;
+        /* margin-left:2rem; */
+        margin-right: 1rem;
+        position: relative;
+    }
+
+}
+@media only screen and (width< 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .rectangle {
+        margin-top: 1rem;
+        background-color: #142143;
+        /* height: 70px;
+        width: 80px; */
+        border-radius: 0.625rem;
+        /* margin-left:2rem; */
+        margin-right: 1rem;
+        position: relative;
+    }
+}
+
+@media only screen and (width<480px) {
+
+    .trend{
+        margin-left: 2rem;
+        
+        position: relative;
+    }
+    .slider {
+        padding: 36px 35px 5px 0px;
+        
+    }
+    .rectangle {
+        margin-top: 1rem;
+        background-color: #142143;
+        border-radius: 15px;
+        margin-left:0rem;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-right: 0;
+        margin-left: 2rem;
+    }
+    .bottom input {
+        padding: 23px 50px 7px 7px;
+    }
+
+    .hero {
+        font-family: "Martel Sans", sans-serif;
+        height: calc(100% - 117px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: aliceblue;
+        position: relative;
+        padding: 0 30px;
+        margin-top: 0;
+    }
+    
+    .hero>:first-child {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 52px;
+        text-align: center;
+    }
+    
+    .hero> :nth-child(2) {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    .hero>:last-child {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .main .box {
+        background-color: black;
+        opacity: 0.69;
+        height: 98vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+    .main {
+        background-image: url(assests/bg_image.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: max(100vh, 100vw);
+        height: 57vh;
+        position: relative;
+        margin-top: 0%;
+    }
+    .faq h2 {
+        margin-top: 5rem;
+        padding: 0px;
+        margin-left: 9%;
+        margin-right: 9%;
+        font-size: 18px;
+    }
+    .faq {
+        color: white;
+        background-color: black;
+        padding: 0px;
+    }
+    
+    .faqbox {
+        display: flex;
+        background-color: #2C2C2C;
+        padding: 24px;
+        max-width: 100;
+        margin-top: 10px;
+        justify-content: space-between;
+        margin-left: 8%;
+        margin-right: 9%;
+        font-size: 24px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    .tt {
+        color: white;
+        margin-left: 0;
+        margin-right: 9%;
+        padding: 5px 10px 5px 10px;
+        margin-top: 1rem;
+        
+    }
+    .headh{
+        margin-left: 2rem;
+    }
+
+    .bottom span{
+        padding: 10px;
+    }
+    }
+
+
+/* @media only screen and (max-width:700px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        }
+    } */ 
+
+# Mobile
+only screen and (min-width: 480px)
+
+# Tablet
+only screen and (min-width: 768px) 
+
+# Desktop
+only screen and (min-width: 992px)
+
+# Huge
+only screen and (min-width: 1280px) 
