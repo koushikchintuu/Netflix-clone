@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Netflix Clone - Educational Project
 
 ## DISCLAIMER
@@ -19,3 +20,10 @@ This project is a static clone of Netflix's landing page, created as a learning 
 
 ## Note
 This project does not collect any user data and is not intended for commercial use. All Netflix branding elements, images, and content rights belong to Netflix Inc.
+=======
+## DISCLAIMER
+
+THIS PROJECT WAS MADE AS A PERSONAL EDUCATIONAL EXERCISE.  
+It is NOT affiliated with Netflix or any other company/brand in any way.  
+The purpose of this project is to practice frontend development using HTML, CSS, and JavaScript.
+>>>>>>> 3099c81eb48529f41286e17c0debb40e7b58e0ee
